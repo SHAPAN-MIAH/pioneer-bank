@@ -1,0 +1,103 @@
+body{
+    font-family: "fira sans", sans-serif;
+}
+
+nav{
+    display: flex;
+    margin-top: 50px;
+}
+nav h1{
+    color: darkslategray;
+}
+nav span{
+    color: darkorange;
+}
+ul{
+    margin-top: 15px;
+    margin-left: auto;
+}
+li{
+    display: inline;
+    list-style: none;
+    margin: 15px;
+    font-size: 20px;
+    color: darkslategray;
+    font-weight: 400;
+    cursor: pointer;
+}
+li:hover{
+    color: darkorange;
+}
+.login-title{
+    margin: auto;
+    text-align: center;
+    color: darkslategray;
+
+}
+.login-area{
+    margin-top: 50px;
+}
+
+.login-form{
+    width: 960px;
+    margin: auto;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 30px;
+    box-shadow: 7px 7px 30px rgb(170, 170, 170);
+}
+
+.login-form h2{
+    color: darkslategray;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: darkorange;
+    color: white;
+    font-size: large;
+}
+
+button:hover{
+    background-color: lightslategray;
+}
+
+
+#transection-area{
+    display: none;
+    margin-top: 50px;
+}
+
+
+.deposit{
+    background-color: rgb(95, 202, 86);
+}
+.withdraw{
+    /* rgb(216, 135, 6); */
+    background-color: rgb(82, 153, 245);
+}
+.balance{
+    background-color: blueviolet;
+}
+
+.status{
+    padding: 30px;
+    margin: 0px 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(163, 163, 163);
+}
+
+.submit-area{
+    margin: auto;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 30px;
+    box-shadow: 7px 7px 30px rgb(170, 170, 170);
+}
